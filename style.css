@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.container {
+    max-width: 450px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media(max-width:480px){
+    .container {
+        padding: 15px;
+    }
+}

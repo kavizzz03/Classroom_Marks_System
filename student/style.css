@@ -1,0 +1,31 @@
+body {
+    background: #f4f7fc;
+    font-family: "Poppins", sans-serif;
+}
+
+.result-box {
+    background: white;
+    transition: 0.2s;
+}
+
+.result-box:hover {
+    background: #eef4ff;
+    transform: scale(1.02);
+}
+
+h2, h4 {
+    color: #0a4dad;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+}
